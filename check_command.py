@@ -6,3 +6,9 @@ def check_command_output(command, text):
         return True
     else:
         return False
+    
+
+# запуск кода:
+command = "ls -l"
+text = "file.txt"
+print(check_command_output(command, text))
