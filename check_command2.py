@@ -15,3 +15,9 @@ def check_command_output(command, text, mode='line'):
                 return True
         return False
     
+
+# запуск кода, вывод:
+command = "ls -l"
+text = "file"
+print(check_command_output(command, text, mode='word'))
+    
